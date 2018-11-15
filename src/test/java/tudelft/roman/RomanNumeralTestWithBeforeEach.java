@@ -11,6 +11,7 @@ public class RomanNumeralTestWithBeforeEach {
     @BeforeEach
     public void initialize() {
         this.roman = new RomanNumeral();
+        System.out.print("This method is called before each test!\n");
     }
 
     @Test
